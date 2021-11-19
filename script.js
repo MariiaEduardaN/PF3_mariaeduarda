@@ -9,8 +9,6 @@ function calculadora () {
 
     const resultado = document.getElementById('result');
 
-    //const foi usado para a variavel não se alterar dentro do codigo
-
     if (p !== ''  && juros !== '' && n !=='' && nome !=='') {
             const i = (juros/100)
             const VF = p*(((1+i)**n-1)/i)
